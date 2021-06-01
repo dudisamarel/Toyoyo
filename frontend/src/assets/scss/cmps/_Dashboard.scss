@@ -1,0 +1,13 @@
+.graph-container {
+    span {
+        font-size: rem(60px);
+    }
+    p{
+        margin-block-end: rem(20px);
+        margin-block-start: rem(20px);
+    }
+    .graph {
+        max-width: 60vw;
+        max-height: 60vh;
+    }
+}

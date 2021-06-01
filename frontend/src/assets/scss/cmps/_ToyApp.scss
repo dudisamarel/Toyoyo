@@ -1,0 +1,41 @@
+.toyapp {
+    p {
+        font-family: "Oswald", sans-serif;
+        font-size: rem(35px);
+    }
+    .toy-card {
+        border: 3px solid darken($clr1, 20);
+        background-color: $clr1;
+        box-shadow: 0 3px 7px 3px #615f5f;
+        color: white;
+        justify-content: flex-end;
+        .img-container {
+            width: rem(150px);
+        }
+
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: translateY(rem(-10px));
+        }
+        .btns {
+            button{
+               
+                min-width: 0px !important;
+
+            }
+            display: flex;
+            margin-block-end: rem(10px);
+        }
+    }
+    .header-container {
+        grid-column: 3/4;
+    }
+    h1 {
+        font-size: rem(100px);
+        color: $clr1;
+    }
+    .graph {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+}

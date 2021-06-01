@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    @include for-mobile-layout {
+        font-size: 5px;
+    }
+    @include for-narrow-layout {
+        font-size: 8px;
+    }
+    @include for-normal-layout {
+        font-size: 10px;
+    }
+    @include for-wide-layout {
+        font-size: 12px;
+    }
+}
+body {
+    background-color: $clr4;
+}
+p,
+span {
+    font-size: rem(25px);
+}
+span,
+p,
+li,
+h1,
+label {
+    font-family: "Oswald", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.blue {
+    color: #36a2eb;
+}
+.red {
+    color: #ff6384;
+}
+.yellow {
+    color: #ffcd56;
+}

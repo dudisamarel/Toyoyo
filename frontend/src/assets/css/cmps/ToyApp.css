@@ -1,0 +1,5 @@
+.toy-card {
+  font-family: 'Oswald';
+  background-color: gray; }
+  .toy-card .img-container {
+    width: rem(150px); }

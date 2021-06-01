@@ -1,0 +1,45 @@
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    & > * {
+        grid-column: 2;
+    }
+
+    @include for-narrow-layout {
+        grid-template-columns:
+            minmax(1.6rem, 1fr)
+            minmax(1.6rem, 1fr)
+            minmax(auto, $normal-breakpoint)
+            minmax(1.6rem, 1fr)
+            minmax(1.6rem, 1fr);
+    }
+
+    @include for-normal-layout {
+        grid-template-columns:
+            minmax(1.6rem, 1fr)
+            minmax(1.6rem, 1fr)
+            minmax(auto, $narrow-breakpoint)
+            minmax(1.6rem, 1fr)
+            minmax(1.6rem, 1fr);
+    }
+
+    @include for-wide-layout {
+        grid-template-columns:
+            minmax(1.6rem, 1fr)
+            minmax(1.6rem, 1fr)
+            minmax(auto, $normal-breakpoint)
+            minmax(1.6rem, 1fr)
+            minmax(1.6rem, 1fr);
+    }
+}
+
+// Main Header Layout
+
+.list-grid {
+    grid-column: 2/5;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(rem(260px), 1fr));
+    grid-gap: rem(20px);
+    padding: rem(30px);
+}

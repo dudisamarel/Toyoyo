@@ -1,0 +1,26 @@
+.navbar {
+    justify-content: space-between;
+    background-color: $clr1;
+    box-shadow: 0 3px 7px 0 #615f5f;
+    user-select: none;
+    li {
+        font-size: rem(30px);
+        
+        padding: rem(20px) rem(30px);
+        list-style-type: none;
+        &:hover {
+            background-color: darken($clr1, 20);
+        }
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .logo {
+        font-size: rem(40px);
+        font-family: "Pacifico";
+        margin-inline-start: 10px;
+        color: darken(#2d6596, 20);
+    }
+}

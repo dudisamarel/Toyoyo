@@ -1,0 +1,19 @@
+.about-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .about-layout h1 {
+    font-size: rem(60px);
+    text-align: center; }
+  .about-layout p {
+    text-align: center;
+    padding-inline-start: rem(20px);
+    padding-inline-end: rem(20px); }
+  .about-layout .btn-map {
+    margin: rem(40px); }
+    .about-layout .btn-map button {
+      margin-inline-end: rem(40px); }
+  .about-layout .map-container {
+    position: relative !important;
+    width: 80vw;
+    height: 50vh; }

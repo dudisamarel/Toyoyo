@@ -1,0 +1,17 @@
+.navbar {
+  justify-content: space-between;
+  background-color: #a5a5a5;
+  box-shadow: 0 3px 7px 0 #615f5f; }
+  .navbar li {
+    padding: rem(13px);
+    font-family: "Oswald";
+    list-style-type: none; }
+    .navbar li:hover {
+      background-color: #3f3d3d; }
+  .navbar a {
+    color: white;
+    text-decoration: none; }
+  .navbar .logo {
+    font-family: "Pacifico";
+    margin-inline-start: 10px;
+    color: #11013d; }

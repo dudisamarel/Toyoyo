@@ -1,0 +1,19 @@
+.add-toy-layout {
+    background-color: $clr1;
+    box-shadow: 0 3px 7px 3px #615f5f;
+    margin-top: rem(60px);
+    padding: rem(40px);
+    color: white;
+    h1 {
+        margin: rem(40px);
+        font-size: rem(40px);
+        text-decoration: underline;
+    }
+    label {
+        font-size: rem(30px);
+        margin-bottom: rem(10px);
+    }
+    select {
+        margin-inline-start: rem(7px);
+    }
+}

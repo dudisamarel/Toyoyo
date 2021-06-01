@@ -1,0 +1,21 @@
+//Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+//Base
+@import "base/helpers.scss";
+@import "base/layout.scss";
+@import "base/base.scss";
+
+// Components
+@import "cmps/AppHeader.scss";
+@import "cmps/ToyApp.scss";
+@import "cmps/Home.scss";
+
+//Pages
+@import "cmps/About.scss";
+@import "cmps/Dashboard.scss";
+@import "cmps/ToyDetails.scss";
+@import "cmps/ToyEdit.scss";

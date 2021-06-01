@@ -1,0 +1,21 @@
+.toy-details {
+    padding: rem(10px);
+    background-color: $clr1;
+    margin-top: rem(100px);
+    box-shadow: 0 3px 7px 3px #615f5f;
+    color: white;
+    h1 {
+        font-size: rem(40px);
+    }
+    ul{
+        padding: 0;
+    }
+    li {
+        font-size: rem(20px);
+        list-style-type: none;
+        margin: rem(5px);
+    }
+    img{
+        width: 20vw;
+    }
+}

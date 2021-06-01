@@ -1,0 +1,27 @@
+.home-container {
+    h1 {
+        font-family: "Oswald";
+        font-size: rem(100px);
+        color: #2d6596;
+    }
+
+    span {
+        margin-block-end: rem(15px);
+        word-break: break-word;
+        color: whitesmoke;
+        .blue {
+            color: #2d6596;
+        }
+    }
+
+    .text {
+        max-width: 50vw;
+    }
+    img {
+        transition: opacity 0.5s ease-in-out;
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+}
